@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <a href="./index.html" class="logo">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <div class="search">
+                <button class="btn">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <a href="./login.html" class="acc">
+              <i class="fa-solid fa-user"></i>
+              <p>Đăng nhập/đăng ký</p>
+            </a>
+            <div class="header__cart">
+              <div class="header__cart-wrap">
+                  <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                  <span class="header__cart-notice">0</span>
+                  <!-- No cart:header__cart-list--no-cart -->
+                  <div class="header__cart-list ">
+                      <img src="./img/no_cart.png" alt="No Cart" class="header__cart--no-cart-img">
+                      <span class="header__cart-list--no-cart-msg">
+                       Chưa có sản phẩm
+                      </span>
+                      <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                      <!-- Cart item -->
+                      <ul class="header__cart-list-item">
+                        <li class="header__cart-item">
+                          <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lmfm9inpcvz3e1_tn" alt="ip14" class="header__cart-item-img">
+                          <div class="header__cart-item-info">
+                            <div class="header__cart-item-head">
+                              <h5 class="header__cart-item-name">Siêu Phẩm DELL 9310 
+                              </h5>
+                              <div class="header__cart-item-price-wrap">
+                                <span class="header__cart-item-price">3.200.000đ</span>
+                                <span class="header__cart-item-multiply">X</span>
+                                <span class="header__cart-item-qnt">2</span> 
+                              </div>                            
+                            </div>
+                            <div class="header__cart-item-body">
+                              <span class="header__cart-item-desc">
+                                Phân loại: Bạc
+                              </span>
+                              <span class="header__cart-item-remove">Xóa</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="header__cart-item">
+                          <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lmfm9inpcvz3e1_tn" alt="ip14" class="header__cart-item-img">
+                          <div class="header__cart-item-info">
+                            <div class="header__cart-item-head">
+                              <h5 class="header__cart-item-name">Siêu Phẩm DELL 9310 
+                              </h5>
+                              <div class="header__cart-item-price-wrap">
+                                <span class="header__cart-item-price">3.200.000đ</span>
+                                <span class="header__cart-item-multiply">X</span>
+                                <span class="header__cart-item-qnt">2</span> 
+                              </div>                            
+                            </div>
+                            <div class="header__cart-item-body">
+                              <span class="header__cart-item-desc">
+                                Phân loại: Bạc
+                              </span>
+                              <span class="header__cart-item-remove">Xóa</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="header__cart-item">
+                          <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lmfm9inpcvz3e1_tn" alt="ip14" class="header__cart-item-img">
+                          <div class="header__cart-item-info">
+                            <div class="header__cart-item-head">
+                              <h5 class="header__cart-item-name">Siêu Phẩm DELL 9310 
+                              </h5>
+                              <div class="header__cart-item-price-wrap">
+                                <span class="header__cart-item-price">3.200.000đ</span>
+                                <span class="header__cart-item-multiply">X</span>
+                                <span class="header__cart-item-qnt">2</span> 
+                              </div>                            
+                            </div>
+                            <div class="header__cart-item-body">
+                              <span class="header__cart-item-desc">
+                                Phân loại: Bạc
+                              </span>
+                              <span class="header__cart-item-remove">Xóa</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="header__cart-item">
+                          <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lmfm9inpcvz3e1_tn" alt="ip14" class="header__cart-item-img">
+                          <div class="header__cart-item-info">
+                            <div class="header__cart-item-head">
+                              <h5 class="header__cart-item-name">Siêu Phẩm DELL 9310 
+                              </h5>
+                              <div class="header__cart-item-price-wrap">
+                                <span class="header__cart-item-price">3.200.000đ</span>
+                                <span class="header__cart-item-multiply">X</span>
+                                <span class="header__cart-item-qnt">2</span> 
+                              </div>                            
+                            </div>
+                            <div class="header__cart-item-body">
+                              <span class="header__cart-item-desc">
+                                Phân loại: Bạc
+                              </span>
+                              <span class="header__cart-item-remove">Xóa</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="header__cart-item">
+                          <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lmfm9inpcvz3e1_tn" alt="ip14" class="header__cart-item-img">
+                          <div class="header__cart-item-info">
+                            <div class="header__cart-item-head">
+                              <h5 class="header__cart-item-name">Siêu Phẩm DELL 9310 
+                              </h5>
+                              <div class="header__cart-item-price-wrap">
+                                <span class="header__cart-item-price">3.200.000đ</span>
+                                <span class="header__cart-item-multiply">X</span>
+                                <span class="header__cart-item-qnt">2</span> 
+                              </div>                            
+                            </div>
+                            <div class="header__cart-item-body">
+                              <span class="header__cart-item-desc">
+                                Phân loại: Bạc
+                              </span>
+                              <span class="header__cart-item-remove">Xóa</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="header__cart-item">
+                          <img src="https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lmfm9inpcvz3e1_tn" alt="ip14" class="header__cart-item-img">
+                          <div class="header__cart-item-info">
+                            <div class="header__cart-item-head">
+                              <h5 class="header__cart-item-name">Siêu Phẩm DELL 9310 
+                              </h5>
+                              <div class="header__cart-item-price-wrap">
+                                <span class="header__cart-item-price">3.200.000đ</span>
+                                <span class="header__cart-item-multiply">X</span>
+                                <span class="header__cart-item-qnt">2</span> 
+                              </div>                            
+                            </div>
+                            <div class="header__cart-item-body">
+                              <span class="header__cart-item-desc">
+                                Phân loại: Bạc
+                              </span>
+                              <span class="header__cart-item-remove">Xóa</span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <ul>
+                <li><a href="./giaynike.html">Giày Nike</a></li>
+                <li><a href="./giayadidas.html">Giày Adidas</a></li>
+                <li><a href="./giaylacoste.html">Giày Lacoste</a></li>
+                <li><a href="./puma.html">Giày Puma</a></li>
+                <li><a href="./asics.html">Giày Asics</a></li>
+                <li><a href="">Giày Thể Thao</a></li>
+                <li><a href="">Sale</a></li>
+            </ul>
+        </div>
+    </header>
+    <container>
+        <div class="navbar">
+            <a href="./index.html">Trang chủ</a>
+            <span>&#8250;	</span>
+            <a href="./asics.html">Giày Asics chính hãng</a>
+        </div>
+        <div class="cartegory">
+          <div class="cartegory-left">
+            <h3>THƯƠNG HIỆU:</h3>
+            <div class="cartegory-left-trademark">
+              <img src="./img/asics.png" alt="">
+              <p>Asics</p>
+            </div>
+            <h3>DANH MỤC:</h3>
+            <select name="Asics" id="Asics">
+              <option value="Giày chạy bộ Asics">Giày chạy bộ Asics</option>
+              <option value="Giày Asics Air">Giày Asics Air</option>
+              <option value="Giày Asics Air Max">Giày Asics Air Max</option>
+              <option value="Giày Asics Trắng">Giày Asics Trắng</option>
+              <option value="Giày Asics Zoom">Giày Asics Zoom</option>
+              <option value="Giày Thể Thao Asics">Giày Thể Thao Asics</option>
+              <option value="Giày Asics Nam">Giày Asics Nam</option>
+              <option value="Giày Asics Nữ">Giày Asics Nữ</option>
+            </select>
+            <h3>Giá:</h3>
+            <select name="giá" id="gia">
+              <option value="Giày chạy bộ Lacoste">Từ thấp đến cao</option>
+              <option value="Giày Lacoste Air">Từ cao đến thấp</option>
+            </select>
+            <h3>SIZE NAM:</h3>
+            <select name="sizenam" id="sizenam">
+              <option value="38.5">38.5</option>
+              <option value="39">39</option>
+              <option value="40">40</option>
+              <option value="40.5">40.5</option>
+              <option value="41">41</option>
+              <option value="42">42</option>
+              <option value="42.5">42.5</option>
+              <option value="43">43</option>
+              <option value="44">44</option>
+            </select>
+            <h3>SIZE NỮ:</h3>
+            <select name="sizenu" id="sizenu">
+              <option value="36">36</option>
+              <option value="36.5">36.5</option>
+              <option value="37 - 37.5">37 - 37.5</option>
+              <option value="38">38</option>
+              <option value="38.5">38.5</option>
+              <option value="39">39</option>
+            </select>
+          </div>
+          <div class="cartegory-right">
+            <h1>GIÀY ASICS CHÍNH HÃNG</h1>
+            <img src="./img/myshoes-sale-cata.png" alt="">
+            <div class="grid__row">
+              <div class="grid__column-2-4 align">
+                <a class="home__product-item" href="#">
+                  <div class="home__product-item-img" style="background-image: url(https://myshoes.vn/image/cache/catalog/2024/nike/nk4/giay-nike-air-max-sc-nam-trang-xanh-duong.01-800x800.jpg);"></div>
+                  <!-- <img class="home__product-item-img" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmkcff2mlcyn9c_tn" alt="sp"> -->
+                  <h4 class="home__product-item-name">GIÀY NIKE AIR MAX SC NAM - TRẮNG XANH DƯƠNG</h4>
+                  <div class="home__product-item-price">
+                    <span class="home__product-item-price-old">2.500.000đ</span>
+                    <span class="home__product-item-price-current">1.990.000đ</span>
+                  </div>
+                  <div class="home__product-item-action">
+                    <span class="home__product-item-like home__product-item-liked">
+                      <i class="home__product-item-like-icon fa-regular fa-heart"></i>
+                      <i class="home__product-item-liked-icon fa-solid fa-heart"></i>
+                    </span>
+                    <div class="home__product-item-rating">
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                    </div>
+                    <span class="home__product-item-sold">89 Đã bán</span>
+                  </div>
+                  <div class="home__product-item-origin">
+                    <span class="home__product-item-brand">Whoo</span>
+                    <span class="home__product-item-origin-name">USA</span>
+                  </div>
+                  <div class="home__product-item-favourite">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Yêu thích</span>
+                  </div>
+                  <div class="home__product-item-sale-off">
+                    <span class="home__product-item-sale-off-percent">5%</span>
+                    <span class="home__product-item-sale-off-label">GIẢM</span>
+                  </div>
+                </a>
+              </div>
+              <div class="grid__column-2-4">
+                <a class="home__product-item" href="./product.html">
+                  <div class="home__product-item-img" style="background-image: url(https://myshoes.vn/image/cache/catalog/2024/nike/nk4/giay-nike-air-zoom-pegasus-41-nam-den.01-800x800.jpg);"></div>
+                  <!-- <img class="home__product-item-img" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmkcff2mlcyn9c_tn" alt="sp"> -->
+                  <h4 class="home__product-item-name">GIÀY NIKE AIR ZOOM PEGASUS 41 NAM - ĐEN FULL</h4>
+                  <div class="home__product-item-price">
+                    <span class="home__product-item-price-old"></span>
+                    <span class="home__product-item-price-current">3.990.000đ</span>
+                  </div>
+                  <div class="home__product-item-action">
+                    <span class="home__product-item-like home__product-item-liked">
+                      <i class="home__product-item-like-icon fa-regular fa-heart"></i>
+                      <i class="home__product-item-liked-icon fa-solid fa-heart"></i>
+                    </span>
+                    <div class="home__product-item-rating">
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                    </div>
+                    <span class="home__product-item-sold">80 Đã bán</span>
+                  </div>
+                  <div class="home__product-item-origin">
+                    <span class="home__product-item-brand">Whoo</span>
+                    <span class="home__product-item-origin-name">VN</span>
+                  </div>
+                  <div class="home__product-item-favourite">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Mới</span>
+                  </div>
+                  <!-- <div class="home__product-item-sale-off">
+                    <span class="home__product-item-sale-off-percent">5%</span>
+                    <span class="home__product-item-sale-off-label">GIẢM</span>
+                  </div> -->
+                </a>
+              </div>
+              <div class="grid__column-2-4">
+                <a class="home__product-item" href="#">
+                  <div class="home__product-item-img" style="background-image: url(https://myshoes.vn/image/cache/catalog/2024/adidas/ad3/giay-adidas-4dfwd-2-m-nam-den-trang.01-800x800.jpg);"></div>
+                  <!-- <img class="home__product-item-img" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmkcff2mlcyn9c_tn" alt="sp"> -->
+                  <h4 class="home__product-item-name">GIÀY ADIDAS 4DFWD 2M NAM - ĐEN TRẮNG</h4>
+                  <div class="home__product-item-price">
+                    <span class="home__product-item-price-old">2.790.000đ</span>
+                    <span class="home__product-item-price-current">5.500.000đ</span>
+                  </div>
+                  <div class="home__product-item-action">
+                    <span class="home__product-item-like home__product-item-liked">
+                      <i class="home__product-item-like-icon fa-regular fa-heart"></i>
+                      <i class="home__product-item-liked-icon fa-solid fa-heart"></i>
+                    </span>
+                    <div class="home__product-item-rating">
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                    </div>
+                    <span class="home__product-item-sold">89 Đã bán</span>
+                  </div>
+                  <div class="home__product-item-origin">
+                    <span class="home__product-item-brand">Whoo</span>
+                    <span class="home__product-item-origin-name">USA</span>
+                  </div>
+                  <div class="home__product-item-favourite">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Yêu thích</span>
+                  </div>
+                  <div class="home__product-item-sale-off">
+                    <span class="home__product-item-sale-off-percent">49%</span>
+                    <span class="home__product-item-sale-off-label">GIẢM</span>
+                  </div>
+                </a>
+              </div>
+              <div class="grid__column-2-4">
+                <a class="home__product-item" href="#">
+                  <div class="home__product-item-img" style="background-image: url(https://myshoes.vn/image/cache/catalog/2024/nike/nk4/giay-nike-air-zoom-vomero-17-nam-den-vang.01-800x800.jpg);"></div>
+                  <!-- <img class="home__product-item-img" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmkcff2mlcyn9c_tn" alt="sp"> -->
+                  <h4 class="home__product-item-name">GIÀY NIKE VOMERO 17 NAM - ĐEN VÀNG
+                  </h4>
+                  <div class="home__product-item-price">
+                    <span class="home__product-item-price-old">4.960.000đ</span>
+                    <span class="home__product-item-price-current">4.390.000đ</span>
+                  </div>
+                  <div class="home__product-item-action">
+                    <span class="home__product-item-like home__product-item-liked">
+                      <i class="home__product-item-like-icon fa-regular fa-heart"></i>
+                      <i class="home__product-item-liked-icon fa-solid fa-heart"></i>
+                    </span>
+                    <div class="home__product-item-rating">
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                    </div>
+                    <span class="home__product-item-sold">11 Đã bán</span>
+                  </div>
+                  <div class="home__product-item-origin">
+                    <span class="home__product-item-brand">Whoo</span>
+                    <span class="home__product-item-origin-name">VN</span>
+                  </div>
+                  <div class="home__product-item-favourite">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Yêu thích</span>
+                  </div>
+                  <div class="home__product-item-sale-off">
+                    <span class="home__product-item-sale-off-percent">11%</span>
+                    <span class="home__product-item-sale-off-label">GIẢM</span>
+                  </div>
+                </a>
+              </div>
+              <div class="grid__column-2-4">
+                <a class="home__product-item" href="#">
+                  <div class="home__product-item-img" style="background-image: url(https://myshoes.vn/image/cache/catalog/2024/nike/nk4/giay-nike-air-winflo-11-nam-trang.01-800x800.jpg);"></div>
+                  <!-- <img class="home__product-item-img" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmkcff2mlcyn9c_tn" alt="sp"> -->
+                  <h4 class="home__product-item-name">GIÀY NIKE AIR WINFLO 11 NAM - TRẮNG</h4>
+                  <div class="home__product-item-price">
+                    <span class="home__product-item-price-old">3.110.000đ</span>
+                    <span class="home__product-item-price-current">2.690.000đ</span>
+                  </div>
+                  <div class="home__product-item-action">
+                    <span class="home__product-item-like home__product-item-liked">
+                      <i class="home__product-item-like-icon fa-regular fa-heart"></i>
+                      <i class="home__product-item-liked-icon fa-solid fa-heart"></i>
+                    </span>
+                    <div class="home__product-item-rating">
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                    </div>
+                    <span class="home__product-item-sold">56 Đã bán</span>
+                  </div>
+                  <div class="home__product-item-origin">
+                    <span class="home__product-item-brand">Whoo</span>
+                    <span class="home__product-item-origin-name">USA</span>
+                  </div>
+                  <div class="home__product-item-favourite">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Yêu thích</span>
+                  </div>
+                  <div class="home__product-item-sale-off">
+                    <span class="home__product-item-sale-off-percent">14%</span>
+                    <span class="home__product-item-sale-off-label">GIẢM</span>
+                  </div>
+                </a>
+              </div>
+              <div class="grid__column-2-4">
+                <a class="home__product-item" href="#">
+                  <div class="home__product-item-img" style="background-image: url(https://myshoes.vn/image/cache/catalog/2024/nike/nk4/giay-nike-air-zoom-vomero-17-nam-trang-xam-do.01-800x800.jpg);"></div>
+                  <!-- <img class="home__product-item-img" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmkcff2mlcyn9c_tn" alt="sp"> -->
+                  <h4 class="home__product-item-name">GIÀY NIKE VOMERO 17 NAM - TRẮNG XÁM ĐỎ</h4>
+                  <div class="home__product-item-price">
+                    <span class="home__product-item-price-old">4.960.000đ</span>
+                    <span class="home__product-item-price-current">4.390.000đ</span>
+                  </div>
+                  <div class="home__product-item-action">
+                    <span class="home__product-item-like home__product-item-liked">
+                      <i class="home__product-item-like-icon fa-regular fa-heart"></i>
+                      <i class="home__product-item-liked-icon fa-solid fa-heart"></i>
+                    </span>
+                    <div class="home__product-item-rating">
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                    </div>
+                    <span class="home__product-item-sold">42 Đã bán</span>
+                  </div>
+                  <div class="home__product-item-origin">
+                    <span class="home__product-item-brand">Whoo</span>
+                    <span class="home__product-item-origin-name">VN</span>
+                  </div>
+                  <div class="home__product-item-favourite">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Yêu thích</span>
+                  </div>
+                  <div class="home__product-item-sale-off">
+                    <span class="home__product-item-sale-off-percent">11%</span>
+                    <span class="home__product-item-sale-off-label">GIẢM</span>
+                  </div>
+                </a>
+              </div>
+              <div class="grid__column-2-4">
+                <a class="home__product-item" href="#">
+                  <div class="home__product-item-img" style="background-image: url(https://myshoes.vn/image/cache/catalog/2024/nike/nk4/giay-nike-zoomx-invincible-run-fk-3-nam-den-trang.01-800x800.jpg);"></div>
+                  <!-- <img class="home__product-item-img" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmkcff2mlcyn9c_tn" alt="sp"> -->
+                  <h4 class="home__product-item-name">GIÀY NIKE ZOOMX INVINCIBLE RUN FK 3 NAM - ĐEN TRẮNG
+                  </h4>
+                  <div class="home__product-item-price">
+                    <span class="home__product-item-price-old">5.579.000đ</span>
+                    <span class="home__product-item-price-current">4.790.000đ</span>
+                  </div>
+                  <div class="home__product-item-action">
+                    <span class="home__product-item-like home__product-item-liked">
+                      <i class="home__product-item-like-icon fa-regular fa-heart"></i>
+                      <i class="home__product-item-liked-icon fa-solid fa-heart"></i>
+                    </span>
+                    <div class="home__product-item-rating">
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                    </div>
+                    <span class="home__product-item-sold">33 Đã bán</span>
+                  </div>
+                  <div class="home__product-item-origin">
+                    <span class="home__product-item-brand">Whoo</span>
+                    <span class="home__product-item-origin-name">USA</span>
+                  </div>
+                  <div class="home__product-item-favourite">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Yêu thích</span>
+                  </div>
+                  <div class="home__product-item-sale-off">
+                    <span class="home__product-item-sale-off-percent">14%</span>
+                    <span class="home__product-item-sale-off-label">GIẢM</span>
+                  </div>
+                </a>
+              </div>
+              <div class="grid__column-2-4">
+                <a class="home__product-item" href="#">
+                  <div class="home__product-item-img" style="background-image: url(https://myshoes.vn/image/cache/catalog/2024/nike/nk4/giay-nike-zoomx-invincible-run-fk-3-nam-den.01-800x800.jpg);"></div>
+                  <!-- <img class="home__product-item-img" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmkcff2mlcyn9c_tn" alt="sp"> -->
+                  <h4 class="home__product-item-name">GIÀY NIKE ZOOMX INVINCIBLE RUN FK 3 NAM - ĐEN</h4>
+                  <div class="home__product-item-price">
+                    <span class="home__product-item-price-old">5.579.000đ</span>
+                    <span class="home__product-item-price-current">4.790.000đ</span>
+                  </div>
+                  <div class="home__product-item-action">
+                    <span class="home__product-item-like home__product-item-liked">
+                      <i class="home__product-item-like-icon fa-regular fa-heart"></i>
+                      <i class="home__product-item-liked-icon fa-solid fa-heart"></i>
+                    </span>
+                    <div class="home__product-item-rating">
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                    </div>
+                    <span class="home__product-item-sold">25 Đã bán</span>
+                  </div>
+                  <div class="home__product-item-origin">
+                    <span class="home__product-item-brand">Whoo</span>
+                    <span class="home__product-item-origin-name">VN</span>
+                  </div>
+                  <div class="home__product-item-favourite">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Yêu thích</span>
+                  </div>
+                  <div class="home__product-item-sale-off">
+                    <span class="home__product-item-sale-off-percent">14%</span>
+                    <span class="home__product-item-sale-off-label">GIẢM</span>
+                  </div>
+                </a>
+              </div>
+              <div class="grid__column-2-4">
+                <a class="home__product-item" href="#">
+                  <div class="home__product-item-img" style="background-image: url(https://myshoes.vn/image/cache/catalog/2024/nike/nk4/giay-nike-zoomx-invincible-run-fk-3-nam-trang-xam-do.01-800x800.jpg);"></div>
+                  <!-- <img class="home__product-item-img" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmkcff2mlcyn9c_tn" alt="sp"> -->
+                  <h4 class="home__product-item-name">GIÀY NIKE ZOOMX INVINCIBLE RUN FK 3 NAM - TRẮNG XÁM ĐỎ</h4>
+                  <div class="home__product-item-price">
+                    <span class="home__product-item-price-old">5.579.000đ</span>
+                    <span class="home__product-item-price-current">4.790.000đ</span>
+                  </div>
+                  <div class="home__product-item-action">
+                    <span class="home__product-item-like home__product-item-liked">
+                      <i class="home__product-item-like-icon fa-regular fa-heart"></i>
+                      <i class="home__product-item-liked-icon fa-solid fa-heart"></i>
+                    </span>
+                    <div class="home__product-item-rating">
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                    </div>
+                    <span class="home__product-item-sold">99 Đã bán</span>
+                  </div>
+                  <div class="home__product-item-origin">
+                    <span class="home__product-item-brand">Whoo</span>
+                    <span class="home__product-item-origin-name">VN</span>
+                  </div>
+                  <div class="home__product-item-favourite">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Yêu thích</span>
+                  </div>
+                  <div class="home__product-item-sale-off">
+                    <span class="home__product-item-sale-off-percent">14%</span>
+                    <span class="home__product-item-sale-off-label">GIẢM</span>
+                  </div>
+                </a>
+              </div>
+              <div class="grid__column-2-4">
+                <a class="home__product-item" href="#">
+                  <div class="home__product-item-img" style="background-image: url(https://myshoes.vn/image/cache/catalog/2024/nike/nk4/giay-nike-air-zoom-structure-25-premium-nam-ghi-vang.01-800x800.jpg);"></div>
+                  <!-- <img class="home__product-item-img" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmkcff2mlcyn9c_tn" alt="sp"> -->
+                  <h4 class="home__product-item-name">GIÀY NIKE AIR ZOOM STRUCTURE 25 PREMIUM NAM - GHI VÀNG</h4>
+                  <div class="home__product-item-price">
+                    <span class="home__product-item-price-old">3.965.000đ</span>
+                    <span class="home__product-item-price-current">3.490.000đ</span>
+                  </div>
+                  <div class="home__product-item-action">
+                    <span class="home__product-item-like home__product-item-liked">
+                      <i class="home__product-item-like-icon fa-regular fa-heart"></i>
+                      <i class="home__product-item-liked-icon fa-solid fa-heart"></i>
+                    </span>
+                    <div class="home__product-item-rating">
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                      <i class="home__product-item-gold-star fa-solid fa-star"></i>
+                    </div>
+                    <span class="home__product-item-sold">69 Đã bán</span>
+                  </div>
+                  <div class="home__product-item-origin">
+                    <span class="home__product-item-brand">Whoo</span>
+                    <span class="home__product-item-origin-name">VN</span>
+                  </div>
+                  <div class="home__product-item-favourite">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Yêu thích</span>
+                  </div>
+                  <div class="home__product-item-sale-off">
+                    <span class="home__product-item-sale-off-percent">12%</span>
+                    <span class="home__product-item-sale-off-label">GIẢM</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </container>
+    <footer>
+        <div class="footer-top">
+          <div class="footer-top_text">
+            <h3>ĐĂNG KÝ NHẬN THÔNG TIN</h3>
+            <p>Đăng ký ngay để được cập nhật sớm nhất những thông tin hữu ích, ữu đãi vô cùng hấp dẫn và những món quà bất ngờ từ Myshoes.vn!</p>
+          </div>
+          <div class="footer-top_email">
+            <div class="footer-btn">
+              <input type="email" name="email" id="email" placeholder="Nhập email của bạn">
+              <button type="submit" class="btn">
+                <i class="fa-regular fa-envelope"></i>
+                <h4>ĐĂNG KÝ</h4>
+              </button>
+            </div>
+            <label class="footer-checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox"><span>Tôi đã đọc và đồng ý với</span>
+              <a href="">Chính sách bảo mật</a>
+            </label>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <h2>MYSHOES.VN - GIÀY CHÍNH HÃNG</h2>
+            <div class="footer-bottom-left-hang">
+              <img src="./img/logo-myshoes.png" alt="logo">
+              <p>Myshoes.vn được định hướng trở thành hệ thống thương mại điện tử bán giày chính hãng hàng đầu Việt Nam.
+                <br>Showroom: 249 Xã Đàn, Hà Nội
+                <br>Hotline: 0973711868</p>
+            </div>
+          </div>
+          <div class="footer-bottom-center1">
+            <h2>VỀ CHÚNG TÔI</h2>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Điều khoản sử dụng</a></li>
+            <li><a href="">Chính sách bảo mật</a></li>
+            <li><a href="">Tin tức Myshoes</a></li>
+            <li><a href="">Cơ hội việc làm</a></li>
+            <li><a href="">Liên hệ</a></li>
+          </div>
+          <div class="footer-bottom-center1">
+            <h2>KHÁCH HÀNG</h2>
+            <li><a href="">Hướng dẫn mua hàng</a></li>
+            <li><a href="">Chính sách đổi trả</a></li>
+            <li><a href="">Chính sách bảo hành</a></li>
+            <li><a href="">Khách hàng thân thiết</a></li>
+            <li><a href="">Hướng dẫn chọn size</a></li>
+            <li><a href="">Chương trình khuyến mại</a></li>
+          </div>
+          <div class="footer-bottom-right">
+            <h2>CHỨNG NHẬN</h2>
+            <img src="./img/DMCA.png" alt="" class="footer-bottom-right-img1">
+            <img src="./img/logo-bct.png" alt="" class="footer-bottom-right-img2">
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
